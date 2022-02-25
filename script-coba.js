@@ -1,19 +1,26 @@
 const sectionA = document.getElementById('a');
 
-const p1 = document.querySelector('p');
+const p1 = document.querySelector('.p1');
+// const p2 = document.querySelector('.p2');
 
 
 const pNew = document.createElement('p');
-const textP = document.createTextNode('ini isi paragraf');
+// const pNew2 = document.createElement('p');
+const textP1 = document.createTextNode('ini isi paragraf');
+// const textP2 = document.createTextNode('Paragraf 3 diganti');
 
-pNew.appendChild(textP);
+pNew.appendChild(textP1);
+// pNew2.appendChild(textP2);
 
 sectionA.replaceChild(pNew,p1);
+// sectionA.replaceChild(pNew,p2);
 
 pNew.style.fontSize = '20px';
 pNew.style.backgroundColor = 'lightgreen';
 
 const link = sectionA.querySelector('a');
+
+const p3 = sectionA.querySelector('.p3');
 
 sectionA.removeChild(link);
 
@@ -29,3 +36,16 @@ sectionB.replaceChild(pBaru, p4);
 
 pBaru.style.color = 'salmon';
 pBaru.style.background = 'lightblue';
+
+
+
+
+
+
+
+
+
+
+
+
+
