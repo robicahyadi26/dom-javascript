@@ -21,6 +21,7 @@ pNew.style.backgroundColor = 'lightgreen';
 const link = sectionA.querySelector('a');
 
 const p3 = sectionA.querySelector('.p3');
+sectionA.removeChild(p3);
 
 sectionA.removeChild(link);
 

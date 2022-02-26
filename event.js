@@ -44,3 +44,19 @@ p3.addEventListener('click', function(){
 });
 
 
+const li = document.querySelector('section#b ul li:nth-child(2)');
+li.addEventListener('dblclick',function(){
+    li.style.backgroundColor = 'salmon';
+});
+
+const p4 = document.querySelector('section#b p');
+p4.addEventListener('mouseenter', function(){
+    p4.style.color = 'red';
+    p4.style.backgroundColor = 'orange'
+});
+
+const p4L = document.querySelector('section#b p');
+p4L.addEventListener('mouseleave', function(){
+    p4L.style.color = 'black';
+    p4L.style.backgroundColor = 'white'
+});
